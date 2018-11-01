@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("data:image/jpeg;base64,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")
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-color: #cccccc;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.contact-logo {
+    background-color: #4aaaa5;
+    width: 15%;
+    float: left;
+    margin-left: 23.7%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;    
+}
+
+.portfolio-logo {
+    background-color: #4aaaa5;
+    width: 15%;
+    float: left;
+    margin-left: 23.7%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+
+.index-logo {
+    background-color: #4aaaa5;
+    width: 15%;
+    float: left;
+    margin-left: 13%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+.name {
+    color: white;
+
+}
+.links {
+    width: 15%;
+    float: right;
+    padding: 0%;
+    height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 0px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #4aaaa5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+#index-links {
+    margin-right: 160px;
+}
+
+#portfolio-links {
+    margin-right: 300px;
+}
+
+#contact-links {
+    margin-right: 300px;
+}
+
+.ind-links {
+    padding-right: 10px;
+    border-right-style: solid;
+    border-right-color: whitesmoke;
+    border-right-width: 1px;
+}
+
+.index-container {
+    margin-top: 25px;
+    margin-left: 13%;
+    margin-right: 15%;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 1000px;
+    height: 500px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+}
+
+.portfolio-container {
+    margin-top: 25px;
+    margin: 25px auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 700px;
+    height: 650px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    margin-bottom: 70px;
+}
+
+.contact-container {
+    margin-top: 25px;
+    margin: 25px auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 700px;
+    height: 500px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+}
+
+.abt-me {
+    color: #4aaaa5;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+}
+
+.picPlusProf {
+    height: 155px;
+    width: 990px;
+    float: left;
+}
+
+.prof-pic {
+    margin-left: 10px;
+    display: inline;
+}
+
+.abt-me-p1 {
+    margin-left: 175px;
+    line-height: 200%;
+    float: left;
+    position: relative;
+    bottom: 175px
+}
+
+.abt-me-p2 {
+    margin-left: 10px;
+    position: relative;
+    bottom: 185px;
+    line-height: 200%;
+}
+
+.abt-me-p3 {
+
+}
+
+.links {
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #777777;
+}
+
+.image {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+}
+
+#image1 {
+    left: 335px;
+    bottom: 350px;
+}
+
+#image2 {
+    left: 335px;
+    bottom: 220px;
+}
+
+#image3 {
+    bottom: 90px;
+    left: 335px;
+}
+
+#image4 {
+    bottom: -40px;
+    left: 335px;
+}
+
+.portfolio-name {
+    position: absolute;
+}
+
+#Hangman {
+    left: 545px;
+    bottom: 410px;
+}
+
+#RPGGame {
+    left: 545px;
+    bottom: 280px;
+}
+
+#TriviaGame {
+    left: 545px;
+    bottom: 150px;
+}
+
+#RutgersInfoWidget {
+    left: 545px;
+    bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    background-color: #666666;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    bottom: 0;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    font-size: 10px;
+}
+
+form {
+    margin-left: 10px;
+    line-height: 200%;
+}
+
+input {
+    width: 680px;
+}
+
+.message {
+    height: 120px;
+}
+
+.submit {
+    width: 136px;
+    height: 30px;
+}
