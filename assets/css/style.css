@@ -275,6 +275,8 @@ input {
 
 .message {
     height: 120px;
+    margin-left: 10px;
+    width: 680px;
 }
 
 .submit {
