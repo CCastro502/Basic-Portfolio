@@ -288,3 +288,21 @@ input {
 .submit:hover {
     cursor: pointer;
 }
+
+#image-holder {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#link-holder {
+
+    font-family: cursive;
+    font-size: 30px;
+    margin: 0 300px;;
+}
+
+#link-holder:hover {
+    border-color: #4aaaa5;
+    cursor: pointer;
+    font-style: italic;
+}
