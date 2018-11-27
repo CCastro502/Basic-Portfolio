@@ -1,0 +1,68 @@
+body {
+    background-image: url("../images/background.png");
+    background-size: 100%;
+    letter-spacing: 150%;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn-outline-primary {
+    margin: 25px 10px 10px 0px;
+    border-color: darkblue;
+    color: blue;
+}
+
+#topic-holder {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#searchArea {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+label {
+    font-size: 20px;
+}
+
+#termField {
+    border-style: solid;
+    border-color: dodgerblue;
+    margin: 0px 5px;
+}
+
+#search {
+    margin-left: 10px;
+    width: 20%;
+    background: ghostwhite;
+}
+
+#gifButton {
+    background:lightseagreen;
+    border-color: aquamarine;
+}
+
+#movieButton {
+    background: dimgray;
+    border-color: black;
+}
+
+#newsButton {
+    background: darkred;
+    border-color: mediumvioletred;
+}
+
+#info-holder {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#info-holder > img {
+    margin: 10px 10px 0 0;
+}

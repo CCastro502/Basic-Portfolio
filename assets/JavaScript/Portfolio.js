@@ -1,4 +1,5 @@
 var images = [
+    ["assets/images/api.png", "Portfolio/API.html"],
     ["assets/images/Trivia-Game.png", "Portfolio/Trivia-Game.html"],
     ["assets/images/Onion-Collector.png", "Portfolio/Onion-Collector.html"],
     ["assets/images/Word-Guessing-Game.png", "Portfolio/Word-Guessing-Game.html"]
@@ -8,7 +9,6 @@ var images = [
 var showImage;
 var count = 0;
 function displayImage() {
-    var links = $("<a>");
     var img = $("<img>");
     img.attr("src", images[count][0]);
     img.attr("width", "650px");
